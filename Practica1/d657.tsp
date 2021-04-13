@@ -1,0 +1,14 @@
+NAME : d657
+COMMENT : Drilling problem (Reinelt)
+TYPE : TSP
+DIMENSION : 657
+EDGE_WEIGHT_TYPE : EUC_2D
+NODE_COORD_SECTION
+1 1 1
+2 0.5 1
+3 0 1
+4 6 0
+5 6 3
+6 0 3
+7 0 0
+EOF
