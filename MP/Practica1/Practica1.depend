@@ -1,0 +1,63 @@
+# depslib dependency file v1.0
+1573638822 source:c:\users\cuest\desktop\practica1\main.cpp
+	<cstdlib>
+	<iostream>
+	"Fecha.h"
+	"Cliente.h"
+	<cstring>
+
+1573633422 c:\users\cuest\desktop\practica1\include\fecha.h
+	<iostream>
+
+1573633316 c:\users\cuest\desktop\practica1\include\cliente.h
+	"Fecha.h"
+
+1573633008 source:c:\users\cuest\desktop\practica1\src\cliente.cpp
+	<iostream>
+	<string.h>
+	"Cliente.h"
+	"Fecha.h"
+
+1573637108 source:c:\users\cuest\desktop\practica1\src\contrato.cpp
+	"Contrato.h"
+	<iostream>
+
+1573636364 c:\users\cuest\desktop\practica1\include\contrato.h
+	"Fecha.h"
+	<iostream>
+
+1573637342 source:c:\users\cuest\desktop\practica1\src\contratomovil.cpp
+	"ContratoMovil.h"
+	<cstring>
+
+1573638760 c:\users\cuest\desktop\practica1\include\contratomovil.h
+	<contrato.h>
+	<iostream>
+	<cstring>
+
+1573633422 source:c:\users\cuest\desktop\practica1\src\fecha.cpp
+	<iostream>
+	"Fecha.h"
+
+1574017974 source:c:\users\cuest\desktop\practica1\src\contratotp.cpp
+	"ContratoTP.h"
+
+1574009578 c:\users\cuest\desktop\practica1\include\contratotp.h
+	<contrato.h>
+
+1573633008 source:d:\practica1\src\cliente.cpp
+	<iostream>
+	<string.h>
+	"Cliente.h"
+	"Fecha.h"
+
+1573633316 d:\practica1\include\cliente.h
+	"Fecha.h"
+
+1573633422 d:\practica1\include\fecha.h
+	<iostream>
+
+1573633422 source:d:\practica1\src\fecha.cpp
+	<iostream>
+	"Fecha.h"
+
