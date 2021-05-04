@@ -1,0 +1,9 @@
+ESTADOS: A B C
+INICIAL: A
+FINALES: A
+TRANSICIONES:
+	A '0' C
+	A '1' B
+	B '0' B
+	B '1' C
+FIN
