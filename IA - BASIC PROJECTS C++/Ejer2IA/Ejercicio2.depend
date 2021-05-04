@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1588327539 source:c:\users\cuest\desktop\ejercicio2\main.cpp
+	<iostream>
+	<vector>
+	<conio.h>
+	<string.h>
+	<stdlib.h>
+

@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1587676182 source:c:\users\cuest\desktop\ejer1ia\main.cpp
+	<iostream>
+	<cstdlib>
+	"listaDinamica.h"
+
+1587668264 c:\users\cuest\desktop\ejer1ia\include\listadinamica.h
+	<cstdlib>
+	<cstring>
+
+1587754031 source:c:\users\cuest\desktop\ejercicio1\ejer1ia\main.cpp
+	<iostream>
+	<cstdlib>
+	"listaDinamica.h"
+
+1587668264 c:\users\cuest\desktop\ejercicio1\ejer1ia\include\listadinamica.h
+	<cstdlib>
+	<cstring>
+
+1587754031 source:c:\users\cuest\desktop\ia\ejercicio1\ejer1ia\main.cpp
+	<iostream>
+	<cstdlib>
+	"listaDinamica.h"
+
+1587668264 c:\users\cuest\desktop\ia\ejercicio1\ejer1ia\include\listadinamica.h
+	<cstdlib>
+	<cstring>
+
