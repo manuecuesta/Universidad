@@ -1,0 +1,156 @@
+# depslib dependency file v1.0
+1559735012 source:e:\ed\practica2final\cola.cpp
+	<iostream>
+	"cola.h"
+
+1557343108 e:\ed\practica2final\cola.h
+	<fstream>
+
+1559735012 source:e:\ed\practica2final\lista.cpp
+	<iostream>
+	<string.h>
+	"lista.h"
+
+1559042370 e:\ed\practica2final\lista.h
+	<fstream>
+	"cola.h"
+
+1559735998 source:e:\ed\practica2final\main.cpp
+	<iostream>
+	<cstdlib>
+	"peluqueria.h"
+
+1559154598 e:\ed\practica2final\peluqueria.h
+	"lista.h"
+
+1559735648 source:e:\ed\practica2final\peluqueria.cpp
+	<iostream>
+	<fstream>
+	<string.h>
+	"peluqueria.h"
+	"lista.h"
+
+1558967516 source:g:\ed\practica2final\cola.cpp
+	<iostream>
+	"cola.h"
+
+1557343108 g:\ed\practica2final\cola.h
+	<fstream>
+
+1559042186 source:g:\ed\practica2final\lista.cpp
+	<iostream>
+	<string.h>
+	"lista.h"
+
+1559042370 g:\ed\practica2final\lista.h
+	<fstream>
+	"cola.h"
+
+1559045440 source:g:\ed\practica2final\peluqueria.cpp
+	<iostream>
+	<fstream>
+	<string.h>
+	"peluqueria.h"
+	"lista.h"
+
+1559045814 g:\ed\practica2final\peluqueria.h
+	"lista.h"
+
+1559044336 source:g:\ed\practica2final\main.cpp
+	<iostream>
+	<cstdlib>
+	"peluqueria.h"
+
+1559735012 source:d:\ed\practica2final\cola.cpp
+	<iostream>
+	"cola.h"
+
+1557343108 d:\ed\practica2final\cola.h
+	<fstream>
+
+1559735012 source:d:\ed\practica2final\lista.cpp
+	<iostream>
+	<string.h>
+	"lista.h"
+
+1559042370 d:\ed\practica2final\lista.h
+	<fstream>
+	"cola.h"
+
+1559739642 source:d:\ed\practica2final\main.cpp
+	<iostream>
+	<cstdlib>
+	"peluqueria.h"
+
+1559154598 d:\ed\practica2final\peluqueria.h
+	"lista.h"
+
+1559753496 source:d:\ed\practica2final\peluqueria.cpp
+	<iostream>
+	<fstream>
+	<string.h>
+	"peluqueria.h"
+	"lista.h"
+
+1558967516 source:h:\ed\practica2final\cola.cpp
+	<iostream>
+	"cola.h"
+
+1557343108 h:\ed\practica2final\cola.h
+	<fstream>
+
+1559149058 source:h:\ed\practica2final\lista.cpp
+	<iostream>
+	<string.h>
+	"lista.h"
+
+1559042370 h:\ed\practica2final\lista.h
+	<fstream>
+	"cola.h"
+
+1559158238 source:h:\ed\practica2final\main.cpp
+	<iostream>
+	<cstdlib>
+	"peluqueria.h"
+
+1559154598 h:\ed\practica2final\peluqueria.h
+	"lista.h"
+
+1559159146 source:h:\ed\practica2final\peluqueria.cpp
+	<iostream>
+	<fstream>
+	<string.h>
+	"peluqueria.h"
+	"lista.h"
+
+1559735012 source:c:\dropbox\uni\estructura-de-datos-1\practica\p2\practica2final-manuel-cuesta\cola.cpp
+	<iostream>
+	"cola.h"
+
+1557343108 c:\dropbox\uni\estructura-de-datos-1\practica\p2\practica2final-manuel-cuesta\cola.h
+	<fstream>
+
+1559735012 source:c:\dropbox\uni\estructura-de-datos-1\practica\p2\practica2final-manuel-cuesta\lista.cpp
+	<iostream>
+	<string.h>
+	"lista.h"
+
+1559042370 c:\dropbox\uni\estructura-de-datos-1\practica\p2\practica2final-manuel-cuesta\lista.h
+	<fstream>
+	"cola.h"
+
+1559739642 source:c:\dropbox\uni\estructura-de-datos-1\practica\p2\practica2final-manuel-cuesta\main.cpp
+	<iostream>
+	<cstdlib>
+	"peluqueria.h"
+
+1559154598 c:\dropbox\uni\estructura-de-datos-1\practica\p2\practica2final-manuel-cuesta\peluqueria.h
+	"lista.h"
+
+1559753838 source:c:\dropbox\uni\estructura-de-datos-1\practica\p2\practica2final-manuel-cuesta\peluqueria.cpp
+	<iostream>
+	<fstream>
+	<string.h>
+	"peluqueria.h"
+	"lista.h"
+
