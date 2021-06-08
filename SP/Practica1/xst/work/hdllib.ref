@@ -1,0 +1,9 @@
+EN vga_ctrl NULL C:/Users/Manuel/Practica1/vga_ctrl.vhd sub00/vhpl01 1619019466
+AR vga_texto behavioral C:/Users/Manuel/Practica1/vga_texto.vhd sub00/vhpl04 1619019469
+EN pantalla_vga NULL C:/Users/Manuel/Practica1/pantalla_vga.vhd sub00/vhpl05 1619019470
+EN juego NULL C:/Users/Manuel/Practica1/juego.vhd sub00/vhpl07 1619019472
+AR juego behavioral C:/Users/Manuel/Practica1/juego.vhd sub00/vhpl08 1619019473
+EN vga_texto NULL C:/Users/Manuel/Practica1/vga_texto.vhd sub00/vhpl03 1619019468
+AR pantalla_vga behavioral C:/Users/Manuel/Practica1/pantalla_vga.vhd sub00/vhpl06 1619019471
+AR vga_ctrl behavioral C:/Users/Manuel/Practica1/vga_ctrl.vhd sub00/vhpl02 1619019467
+PH font_caracteres NULL C:/Users/Manuel/Practica1/font_caracteres.vhd sub00/vhpl00 1619019465

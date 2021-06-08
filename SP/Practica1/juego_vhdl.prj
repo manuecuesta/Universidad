@@ -1,0 +1,5 @@
+vhdl work "C:\Users\Manuel\Practica1\font_caracteres.vhd"
+vhdl work "C:\Users\Manuel\Practica1\vga_texto.vhd"
+vhdl work "C:\Users\Manuel\Practica1\vga_ctrl.vhd"
+vhdl work "C:\Users\Manuel\Practica1\pantalla_vga.vhd"
+vhdl work "C:\Users\Manuel\Practica1\juego.vhd"

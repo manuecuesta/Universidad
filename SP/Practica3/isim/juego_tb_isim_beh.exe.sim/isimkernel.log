@@ -1,0 +1,29 @@
+Command line:
+   juego_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51761
+
+Wed Jun 02 16:57:04 2021
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5163.09 Meg
+
+ Total Signals          : 1824
+ Total Nets             : 2019
+ Total Signal Drivers   : 531
+ Total Blocks           : 480
+ Total Primitive Blocks : 363
+ Total Processes        : 509
+ Total Traceable Variables  : 901
+ Total Scalar Nets and Variables : 82196
+Total Line Count : 2052
+
+ Total Simulation Time: 0.203125 sec
+
+ Current Memory Usage: 5005.8 Meg
+
+Wed Jun 02 16:59:05 2021
+

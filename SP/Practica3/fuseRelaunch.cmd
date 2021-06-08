@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Manuel/Practica3/num_aleatorio_tb_isim_beh.exe" -prj "C:/Users/Manuel/Practica3/num_aleatorio_tb_beh.prj" "work.num_aleatorio_tb" 

@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Manuel/Practica1/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Manuel/Practica1/xst"
+elaborate
+-ifn vga_ctrl.prj
+-ifmt mixed

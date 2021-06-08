@@ -1,0 +1,29 @@
+Command line:
+   num_aleatorio_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  64742
+
+Wed Jun 02 16:43:15 2021
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5150.69 Meg
+
+ Total Signals          : 9
+ Total Nets             : 22
+ Total Signal Drivers   : 5
+ Total Blocks           : 4
+ Total Primitive Blocks : 4
+ Total Processes        : 2
+ Total Traceable Variables  : 10
+ Total Scalar Nets and Variables : 400
+Total Line Count : 32
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 4678.83 Meg
+
+Wed Jun 02 16:47:06 2021
+

@@ -1,0 +1,30 @@
+V3 19
+FL C:/Users/Manuel/Practica1/font_caracteres.vhd 2021/04/19.16:58:50 P.20131013
+PH work/font_caracteres 1619019465 \
+      FL C:/Users/Manuel/Practica1/font_caracteres.vhd PB ieee/std_logic_1164 1381692176
+FL C:/Users/Manuel/Practica1/juego.vhd 2021/04/13.17:22:52 P.20131013
+EN work/juego 1619019472 FL C:/Users/Manuel/Practica1/juego.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/juego/Behavioral 1619019473 \
+      FL C:/Users/Manuel/Practica1/juego.vhd EN work/juego 1619019472 \
+      CP pantalla_vga
+FL C:/Users/Manuel/Practica1/pantalla_vga.vhd 2020/02/29.08:59:33 P.20131013
+EN work/pantalla_vga 1619019470 FL C:/Users/Manuel/Practica1/pantalla_vga.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/pantalla_vga/Behavioral 1619019471 \
+      FL C:/Users/Manuel/Practica1/pantalla_vga.vhd EN work/pantalla_vga 1619019470 \
+      CP vga_ctrl CP vga_texto
+FL C:/Users/Manuel/Practica1/vga_ctrl.vhd 2020/02/28.22:23:39 P.20131013
+EN work/vga_ctrl 1619019466 FL C:/Users/Manuel/Practica1/vga_ctrl.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/vga_ctrl/Behavioral 1619019467 \
+      FL C:/Users/Manuel/Practica1/vga_ctrl.vhd EN work/vga_ctrl 1619019466
+FL C:/Users/Manuel/Practica1/vga_texto.vhd 2021/04/21.17:37:44 P.20131013
+EN work/vga_texto 1619019468 FL C:/Users/Manuel/Practica1/vga_texto.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PH work/font_caracteres 1619019465 \
+      LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/vga_texto/Behavioral 1619019469 \
+      FL C:/Users/Manuel/Practica1/vga_texto.vhd EN work/vga_texto 1619019468 \
+      CP RAMB16_S9_S9

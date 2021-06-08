@@ -1,0 +1,37 @@
+V3 23
+FL C:/Users/Manuel/Practica1Nuevo/font_caracteres.vhd 2021/04/19.16:58:50 P.20131013
+PH work/font_caracteres 1622044044 \
+      FL C:/Users/Manuel/Practica1Nuevo/font_caracteres.vhd \
+      PB ieee/std_logic_1164 1381692176
+FL C:/Users/Manuel/Practica1Nuevo/juego.vhd 2021/05/26.17:47:22 P.20131013
+EN work/juego 1622044053 FL C:/Users/Manuel/Practica1Nuevo/juego.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/juego/Behavioral 1622044054 \
+      FL C:/Users/Manuel/Practica1Nuevo/juego.vhd EN work/juego 1622044053 \
+      CP pantalla_vga CP num_aleatorio
+FL C:/Users/Manuel/Practica1Nuevo/num_aleatorio.vhd 2021/05/19.17:57:18 P.20131013
+EN work/num_aleatorio 1622044051 \
+      FL C:/Users/Manuel/Practica1Nuevo/num_aleatorio.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/num_aleatorio/Behavioral 1622044052 \
+      FL C:/Users/Manuel/Practica1Nuevo/num_aleatorio.vhd EN work/num_aleatorio 1622044051
+FL C:/Users/Manuel/Practica1Nuevo/pantalla_vga.vhd 2020/02/29.08:59:33 P.20131013
+EN work/pantalla_vga 1622044049 \
+      FL C:/Users/Manuel/Practica1Nuevo/pantalla_vga.vhd PB ieee/std_logic_1164 1381692176
+AR work/pantalla_vga/Behavioral 1622044050 \
+      FL C:/Users/Manuel/Practica1Nuevo/pantalla_vga.vhd EN work/pantalla_vga 1622044049 \
+      CP vga_ctrl CP vga_texto
+FL C:/Users/Manuel/Practica1Nuevo/vga_ctrl.vhd 2020/02/28.22:23:39 P.20131013
+EN work/vga_ctrl 1622044045 FL C:/Users/Manuel/Practica1Nuevo/vga_ctrl.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/vga_ctrl/Behavioral 1622044046 \
+      FL C:/Users/Manuel/Practica1Nuevo/vga_ctrl.vhd EN work/vga_ctrl 1622044045
+FL C:/Users/Manuel/Practica1Nuevo/vga_texto.vhd 2021/05/19.17:41:33 P.20131013
+EN work/vga_texto 1622044047 FL C:/Users/Manuel/Practica1Nuevo/vga_texto.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PH work/font_caracteres 1622044044 \
+      LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/vga_texto/Behavioral 1622044048 \
+      FL C:/Users/Manuel/Practica1Nuevo/vga_texto.vhd EN work/vga_texto 1622044047 \
+      CP RAMB16_S9_S9

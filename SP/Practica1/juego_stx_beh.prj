@@ -1,0 +1,5 @@
+vhdl isim_temp "font_caracteres.vhd"
+vhdl isim_temp "vga_texto.vhd"
+vhdl isim_temp "vga_ctrl.vhd"
+vhdl isim_temp "pantalla_vga.vhd"
+vhdl isim_temp "juego.vhd"

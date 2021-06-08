@@ -1,0 +1,2 @@
+vhdl isim_temp "num_aleatorio.vhd"
+vhdl isim_temp "num_aleatorio_tb.vhd"

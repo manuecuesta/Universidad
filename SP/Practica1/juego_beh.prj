@@ -1,0 +1,5 @@
+vhdl work "font_caracteres.vhd"
+vhdl work "vga_texto.vhd"
+vhdl work "vga_ctrl.vhd"
+vhdl work "pantalla_vga.vhd"
+vhdl work "juego.vhd"

@@ -1,0 +1,33 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Manuel/Practica1/juego_isim_beh.exe -prj C:/Users/Manuel/Practica1/juego_beh.prj work.juego 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Manuel/Practica1/font_caracteres.vhd" into library work
+Parsing VHDL file "C:/Users/Manuel/Practica1/vga_texto.vhd" into library work
+Parsing VHDL file "C:/Users/Manuel/Practica1/vga_ctrl.vhd" into library work
+Parsing VHDL file "C:/Users/Manuel/Practica1/pantalla_vga.vhd" into library work
+Parsing VHDL file "C:/Users/Manuel/Practica1/juego.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package font_caracteres
+Compiling package vcomponents
+Compiling architecture behavioral of entity vga_ctrl [vga_ctrl_default]
+Compiling package textio
+Compiling package vital_timing
+Compiling package vital_primitives
+Compiling package vpkg
+Compiling architecture ramb16_s9_s9_v of entity RAMB16_S9_S9 [\RAMB16_S9_S9:juego:vga:pantalla...]
+Compiling architecture behavioral of entity vga_texto [\vga_texto:juego:vga:pantalla:\]
+Compiling architecture behavioral of entity pantalla_vga [\pantalla_vga:juego:vga:\]
+Compiling architecture behavioral of entity juego
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 19 VHDL Units
+Built simulation executable C:/Users/Manuel/Practica1/juego_isim_beh.exe
+Fuse Memory Usage: 69008 KB
+Fuse CPU Usage: 624 ms

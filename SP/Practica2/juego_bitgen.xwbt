@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Manuel\Practica1Nuevo\juego.ncd
+OUTFILE=C:\Users\Manuel\Practica1Nuevo\juego.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4cp132
+WORKINGDIR=C:\Users\Manuel\Practica1Nuevo
+LICENSE=WebPack
+USER_INFO=211452053_0_0_755

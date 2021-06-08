@@ -1,0 +1,2 @@
+vhdl isim_temp "imprime_r.vhd"
+vhdl isim_temp "impres_tb.vhd"

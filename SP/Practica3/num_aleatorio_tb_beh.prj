@@ -1,0 +1,2 @@
+vhdl work "num_aleatorio.vhd"
+vhdl work "num_aleatorio_tb.vhd"

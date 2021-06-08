@@ -1,0 +1,107 @@
+V3 87
+FL C:/Users/Manuel/Practica1Nuevo/font_caracteres.vhd 2021/04/19.16:58:50 P.20131013
+FL C:/Users/Manuel/Practica1Nuevo/juego.vhd 2021/05/26.17:47:22 P.20131013
+FL C:/Users/Manuel/Practica1Nuevo/num_aleatorio.vhd 2021/05/19.17:57:18 P.20131013
+FL C:/Users/Manuel/Practica1Nuevo/pantalla_vga.vhd 2020/02/29.08:59:33 P.20131013
+FL C:/Users/Manuel/Practica1Nuevo/vga_ctrl.vhd 2020/02/28.22:23:39 P.20131013
+FL C:/Users/Manuel/Practica1Nuevo/vga_texto.vhd 2021/05/19.17:41:33 P.20131013
+FL C:/Users/Manuel/Practica3/ahorcado_imp.vhd 2020/03/01.19:36:13 P.20131013
+EN work/prog 1622647699 FL C:/Users/Manuel/Practica3/ahorcado_imp.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/prog/low_level_definition 1622647700 \
+      FL C:/Users/Manuel/Practica3/ahorcado_imp.vhd EN work/prog 1622647699 \
+      CP RAMB16_S18
+FL C:/Users/Manuel/Practica3/ahorcado_sim.vhd 2020/03/01.19:41:22 P.20131013
+EN work/prog_sim 1622647701 FL C:/Users/Manuel/Practica3/ahorcado_sim.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/prog_sim/low_level_definition 1622647702 \
+      FL C:/Users/Manuel/Practica3/ahorcado_sim.vhd EN work/prog_sim 1622647701 \
+      CP RAMB16_S18
+FL C:/Users/Manuel/Practica3/font_caracteres.vhd 2021/04/19.16:58:50 P.20131013
+PH work/font_caracteres 1622647703 \
+      FL C:/Users/Manuel/Practica3/font_caracteres.vhd PB ieee/std_logic_1164 1381692176
+FL C:/Users/Manuel/Practica3/interrupcion_pblaze.vhd 2012/09/15.11:19:30 P.20131013
+EN work/interrupcion_pblaze 1622647704 \
+      FL C:/Users/Manuel/Practica3/interrupcion_pblaze.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/interrupcion_pblaze/Behavioral 1622647705 \
+      FL C:/Users/Manuel/Practica3/interrupcion_pblaze.vhd \
+      EN work/interrupcion_pblaze 1622647704
+FL C:/Users/Manuel/Practica3/juego.vhd 2021/06/01.17:14:29 P.20131013
+EN work/juego 1622647726 FL C:/Users/Manuel/Practica3/juego.vhd \
+      PB ieee/std_logic_1164 1381692176 PH work/picoblaze_pkg 1622647698
+AR work/juego/Behavioral 1622647727 \
+      FL C:/Users/Manuel/Practica3/juego.vhd EN work/juego 1622647726 \
+      CP pantalla_vga CP num_aleatorio CP micro_total
+FL C:/Users/Manuel/Practica3/kcpsm3.vhd 2012/04/24.12:22:36 P.20131013
+EN work/kcpsm3 1622647706 FL C:/Users/Manuel/Practica3/kcpsm3.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/kcpsm3/low_level_definition 1622647707 \
+      FL C:/Users/Manuel/Practica3/kcpsm3.vhd EN work/kcpsm3 1622647706 CP LUT1 \
+      CP FDR CP FDS CP LUT4 CP FD CP FDE CP LUT3 CP FDRE CP LUT2 CP MUXCY CP XORCY CP INV \
+      CP string CP label CP FDRSE CP RAM16X1D CP RAM64X1S CP MUXF5 CP RAM32X1S
+FL C:/Users/Manuel/Practica3/micro_total.vhd 2015/12/03.14:09:35 P.20131013
+EN work/micro_total 1622647724 FL C:/Users/Manuel/Practica3/micro_total.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PH work/picoblaze_pkg 1622647698
+AR work/micro_total/Behavioral 1622647725 \
+      FL C:/Users/Manuel/Practica3/micro_total.vhd EN work/micro_total 1622647724 \
+      CP interrupcion_pblaze CP kcpsm3 CP simulacion CP prog_fin CP puertos_in \
+      CP puertos_out
+FL C:/Users/Manuel/Practica3/num_aleatorio.vhd 2021/05/19.17:57:18 P.20131013
+EN work/num_aleatorio 1622647722 FL C:/Users/Manuel/Practica3/num_aleatorio.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/num_aleatorio/Behavioral 1622647723 \
+      FL C:/Users/Manuel/Practica3/num_aleatorio.vhd EN work/num_aleatorio 1622647722
+FL C:/Users/Manuel/Practica3/pantalla_vga.vhd 2020/02/29.08:59:33 P.20131013
+EN work/pantalla_vga 1622647720 FL C:/Users/Manuel/Practica3/pantalla_vga.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/pantalla_vga/Behavioral 1622647721 \
+      FL C:/Users/Manuel/Practica3/pantalla_vga.vhd EN work/pantalla_vga 1622647720 \
+      CP vga_ctrl CP vga_texto
+FL C:/Users/Manuel/Practica3/picoblaze_pkg.vhd 2020/03/01.12:33:01 P.20131013
+PH work/picoblaze_pkg 1622647698 FL C:/Users/Manuel/Practica3/picoblaze_pkg.vhd \
+      PB ieee/std_logic_1164 1381692176
+FL C:/Users/Manuel/Practica3/prog_fin.vhd 2010/10/11.01:01:16 P.20131013
+EN work/prog_fin 1622647710 FL C:/Users/Manuel/Practica3/prog_fin.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/prog_fin/Behavioral 1622647711 \
+      FL C:/Users/Manuel/Practica3/prog_fin.vhd EN work/prog_fin 1622647710 \
+      CP prog CP prog_sim
+FL C:/Users/Manuel/Practica3/puertos_in.vhd 2010/04/04.12:49:58 P.20131013
+EN work/puertos_in 1622647712 FL C:/Users/Manuel/Practica3/puertos_in.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PH work/picoblaze_pkg 1622647698
+AR work/puertos_in/Behavioral 1622647713 \
+      FL C:/Users/Manuel/Practica3/puertos_in.vhd EN work/puertos_in 1622647712
+FL C:/Users/Manuel/Practica3/puertos_out.vhd 2009/03/31.14:02:38 P.20131013
+EN work/puertos_out 1622647714 FL C:/Users/Manuel/Practica3/puertos_out.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PH work/picoblaze_pkg 1622647698
+AR work/puertos_out/Behavioral 1622647715 \
+      FL C:/Users/Manuel/Practica3/puertos_out.vhd EN work/puertos_out 1622647714
+FL C:/Users/Manuel/Practica3/sim.vhd 2012/04/24.12:22:52 P.20131013
+EN work/simulacion 1622647708 FL C:/Users/Manuel/Practica3/sim.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177 PH work/picoblaze_pkg 1622647698
+AR work/simulacion/Behavioral 1622647709 \
+      FL C:/Users/Manuel/Practica3/sim.vhd EN work/simulacion 1622647708
+FL C:/Users/Manuel/Practica3/vga_ctrl.vhd 2020/02/28.22:23:39 P.20131013
+EN work/vga_ctrl 1622647716 FL C:/Users/Manuel/Practica3/vga_ctrl.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/vga_ctrl/Behavioral 1622647717 \
+      FL C:/Users/Manuel/Practica3/vga_ctrl.vhd EN work/vga_ctrl 1622647716
+FL C:/Users/Manuel/Practica3/vga_texto.vhd 2021/05/19.17:41:33 P.20131013
+EN work/vga_texto 1622647718 FL C:/Users/Manuel/Practica3/vga_texto.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PH work/font_caracteres 1622647703 \
+      LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/vga_texto/Behavioral 1622647719 \
+      FL C:/Users/Manuel/Practica3/vga_texto.vhd EN work/vga_texto 1622647718 \
+      CP RAMB16_S9_S9
