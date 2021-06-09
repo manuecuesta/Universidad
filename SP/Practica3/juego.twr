@@ -45,16 +45,16 @@ Setup/Hold to clock clk
             |Max Setup to|Max Hold to |                  | Clock  |
 Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
 ------------+------------+------------+------------------+--------+
-datos<0>    |    0.393(F)|    0.866(F)|clk_BUFGP         |   0.000|
-datos<1>    |    1.523(F)|   -0.039(F)|clk_BUFGP         |   0.000|
-datos<2>    |    0.724(F)|    0.597(F)|clk_BUFGP         |   0.000|
-datos<3>    |    0.762(F)|    0.567(F)|clk_BUFGP         |   0.000|
-inicio_juego|    2.143(R)|    0.951(R)|clk_BUFGP         |   0.000|
-            |    0.803(F)|    0.538(F)|clk_BUFGP         |   0.000|
-pul_dato    |    2.170(R)|    0.960(R)|clk_BUFGP         |   0.000|
-            |    1.738(F)|   -0.210(F)|clk_BUFGP         |   0.000|
-reset       |    2.366(R)|   -0.175(R)|clk_BUFGP         |   0.000|
-            |    1.931(F)|   -0.126(F)|clk_BUFGP         |   0.000|
+datos<0>    |    0.049(F)|    1.142(F)|clk_BUFGP         |   0.000|
+datos<1>    |    0.661(F)|    0.653(F)|clk_BUFGP         |   0.000|
+datos<2>    |    0.655(F)|    0.652(F)|clk_BUFGP         |   0.000|
+datos<3>    |    0.747(F)|    0.579(F)|clk_BUFGP         |   0.000|
+inicio_juego|    2.735(R)|    0.851(R)|clk_BUFGP         |   0.000|
+            |    2.425(F)|   -0.762(F)|clk_BUFGP         |   0.000|
+pul_dato    |    3.000(R)|    0.832(R)|clk_BUFGP         |   0.000|
+            |    1.471(F)|    0.002(F)|clk_BUFGP         |   0.000|
+reset       |    2.523(R)|   -0.198(R)|clk_BUFGP         |   0.000|
+            |    1.907(F)|   -0.127(F)|clk_BUFGP         |   0.000|
 ------------+------------+------------+------------------+--------+
 
 Clock clk to Pad
@@ -62,14 +62,14 @@ Clock clk to Pad
             | clk (edge) |                  | Clock  |
 Destination |   to PAD   |Internal Clock(s) | Phase  |
 ------------+------------+------------------+--------+
-blue<1>     |   27.212(R)|clk_BUFGP         |   0.000|
-blue<2>     |   27.461(R)|clk_BUFGP         |   0.000|
-green<0>    |   27.720(R)|clk_BUFGP         |   0.000|
-green<1>    |   27.955(R)|clk_BUFGP         |   0.000|
-green<2>    |   27.466(R)|clk_BUFGP         |   0.000|
-red<0>      |   28.471(R)|clk_BUFGP         |   0.000|
-red<1>      |   28.223(R)|clk_BUFGP         |   0.000|
-red<2>      |   27.955(R)|clk_BUFGP         |   0.000|
+blue<1>     |   27.048(R)|clk_BUFGP         |   0.000|
+blue<2>     |   27.298(R)|clk_BUFGP         |   0.000|
+green<0>    |   27.556(R)|clk_BUFGP         |   0.000|
+green<1>    |   27.283(R)|clk_BUFGP         |   0.000|
+green<2>    |   27.302(R)|clk_BUFGP         |   0.000|
+red<0>      |   28.307(R)|clk_BUFGP         |   0.000|
+red<1>      |   28.059(R)|clk_BUFGP         |   0.000|
+red<2>      |   27.530(R)|clk_BUFGP         |   0.000|
 ------------+------------+------------------+--------+
 
 Clock to Setup on destination clock clk
@@ -77,18 +77,18 @@ Clock to Setup on destination clock clk
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk            |   11.293|    5.265|    9.765|    2.738|
+clk            |    9.803|    6.296|    9.194|    3.004|
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed Wed Jun 02 17:28:46 2021 
+Analysis completed Wed Jun 09 17:39:56 2021 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 4503 MB
+Peak Memory Usage: 4511 MB
 
 
 

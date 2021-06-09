@@ -9,7 +9,7 @@ Target Device  : xc3s100e
 Target Package : cp132
 Target Speed   : -4
 Mapper Version : spartan3e -- $Revision: 1.55 $
-Mapped Date    : Wed Jun 02 17:28:33 2021
+Mapped Date    : Wed Jun 09 17:39:42 2021
 
 Design Summary
 --------------
@@ -17,15 +17,15 @@ Number of errors:      0
 Number of warnings:   13
 Logic Utilization:
   Number of Slice Flip Flops:           166 out of   1,920    8%
-  Number of 4 input LUTs:               909 out of   1,920   47%
+  Number of 4 input LUTs:               919 out of   1,920   47%
 Logic Distribution:
-  Number of occupied Slices:            577 out of     960   60%
-    Number of Slices containing only related logic:     577 out of     577 100%
-    Number of Slices containing unrelated logic:          0 out of     577   0%
+  Number of occupied Slices:            583 out of     960   60%
+    Number of Slices containing only related logic:     583 out of     583 100%
+    Number of Slices containing unrelated logic:          0 out of     583   0%
       *See NOTES below for an explanation of the effects of unrelated logic.
-  Total Number of 4 input LUTs:         936 out of   1,920   48%
-    Number used as logic:               841
-    Number used as a route-thru:         27
+  Total Number of 4 input LUTs:         945 out of   1,920   49%
+    Number used as logic:               851
+    Number used as a route-thru:         26
     Number used for Dual Port RAMs:      16
       (Two LUTs used per Dual Port RAM)
     Number used for 32x1 RAMs:           52
@@ -38,10 +38,10 @@ Logic Distribution:
   Number of RAMB16s:                      2 out of       4   50%
   Number of BUFGMUXs:                     2 out of      24    8%
 
-Average Fanout of Non-Clock Nets:                4.66
+Average Fanout of Non-Clock Nets:                4.68
 
-Peak Memory Usage:  4401 MB
-Total REAL time to MAP completion:  2 secs 
+Peak Memory Usage:  4383 MB
+Total REAL time to MAP completion:  1 secs 
 Total CPU time to MAP completion:   1 secs 
 
 NOTES:

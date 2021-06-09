@@ -125,7 +125,8 @@ Architecture behavioral of Entity puertos_out is up to date.
 Compiling vhdl file "C:/Users/Manuel/Practica3/vga_ctrl.vhd" in Library work.
 Architecture behavioral of Entity vga_ctrl is up to date.
 Compiling vhdl file "C:/Users/Manuel/Practica3/vga_texto.vhd" in Library work.
-Architecture behavioral of Entity vga_texto is up to date.
+Entity <vga_texto> compiled.
+Entity <vga_texto> (Architecture <behavioral>) compiled.
 Compiling vhdl file "C:/Users/Manuel/Practica3/pantalla_vga.vhd" in Library work.
 Architecture behavioral of Entity pantalla_vga is up to date.
 Compiling vhdl file "C:/Users/Manuel/Practica3/num_aleatorio.vhd" in Library work.
@@ -394,17 +395,17 @@ Analyzing Entity <vga_texto> in library <work> (Architecture <behavioral>).
     Set user-defined property "INIT_0D =  0000000000000000000000000000000000000000000000001A16161616161616" for instance <RAMB16_S9_S9_inst> in unit <vga_texto>.
     Set user-defined property "INIT_0E =  0000000000000000000000130000000000000000000000000000000000000013" for instance <RAMB16_S9_S9_inst> in unit <vga_texto>.
     Set user-defined property "INIT_0F =  0000000000000000000000000000000000000000000000001300000000000000" for instance <RAMB16_S9_S9_inst> in unit <vga_texto>.
-    Set user-defined property "INIT_10 =  3A524F495245505553000013000000524F4C4156000000000000000201140013" for instance <RAMB16_S9_S9_inst> in unit <vga_texto>.
+    Set user-defined property "INIT_10 =  3A524F495245505553000013000000524F4C4156000000000002011400000013" for instance <RAMB16_S9_S9_inst> in unit <vga_texto>.
     Set user-defined property "INIT_11 =  0000000000000000000000000000000000000000000000001300000000585800" for instance <RAMB16_S9_S9_inst> in unit <vga_texto>.
-    Set user-defined property "INIT_12 =  3A524F495245464E4900001300004F544C55434F000000000000000500130013" for instance <RAMB16_S9_S9_inst> in unit <vga_texto>.
+    Set user-defined property "INIT_12 =  3A524F495245464E4900001300004F544C55434F000000000013001300000013" for instance <RAMB16_S9_S9_inst> in unit <vga_texto>.
     Set user-defined property "INIT_13 =  0000000000000000000000000000000000000000000000001300000000585800" for instance <RAMB16_S9_S9_inst> in unit <vga_texto>.
-    Set user-defined property "INIT_14 =  3A534F544E45544E490000130000000000000000000000000000071308130013" for instance <RAMB16_S9_S9_inst> in unit <vga_texto>.
+    Set user-defined property "INIT_14 =  3A534F544E45544E490000130000000000000000000000000000001300000013" for instance <RAMB16_S9_S9_inst> in unit <vga_texto>.
     Set user-defined property "INIT_15 =  0000000000000000000000000000000000000000000000001300000000585800" for instance <RAMB16_S9_S9_inst> in unit <vga_texto>.
-    Set user-defined property "INIT_16 =  0000000000000000000000130000000000585800000000000000080007130013" for instance <RAMB16_S9_S9_inst> in unit <vga_texto>.
-    Set user-defined property "INIT_17 =  0000000000000000000000000000000000000000000000001300000000000000" for instance <RAMB16_S9_S9_inst> in unit <vga_texto>.
-    Set user-defined property "INIT_18 =  000000003A4F5441440000130000000000000000000000000000000000000013" for instance <RAMB16_S9_S9_inst> in unit <vga_texto>.
+    Set user-defined property "INIT_16 =  0000000000000000000000130000000000585800000000000000001300000013" for instance <RAMB16_S9_S9_inst> in unit <vga_texto>.
+    Set user-defined property "INIT_17 =  0000000000000000000000000000000000000000130000001300000000000000" for instance <RAMB16_S9_S9_inst> in unit <vga_texto>.
+    Set user-defined property "INIT_18 =  000000003A4F5441440000130000000000000000000000000000001300000013" for instance <RAMB16_S9_S9_inst> in unit <vga_texto>.
     Set user-defined property "INIT_19 =  0000000000000000000000000000000000000000000000001300000000585800" for instance <RAMB16_S9_S9_inst> in unit <vga_texto>.
-    Set user-defined property "INIT_1A =  0000000000000000000000130000000000000000000000000000000000000013" for instance <RAMB16_S9_S9_inst> in unit <vga_texto>.
+    Set user-defined property "INIT_1A =  0000000000000000000000130000000000000000000000000000001300000013" for instance <RAMB16_S9_S9_inst> in unit <vga_texto>.
     Set user-defined property "INIT_1B =  0000000000000000000000000000000000000000000000001300000000000000" for instance <RAMB16_S9_S9_inst> in unit <vga_texto>.
     Set user-defined property "INIT_1C =  16161616161616161616161C1616161616161616161616161616161616161617" for instance <RAMB16_S9_S9_inst> in unit <vga_texto>.
     Set user-defined property "INIT_1D =  0000000000000000000000000000000000000000000000001816161616161616" for instance <RAMB16_S9_S9_inst> in unit <vga_texto>.
@@ -700,10 +701,10 @@ Analyzing Entity <prog> in library <work> (Architecture <low_level_definition>).
     Set user-defined property "INIT_01 =  542458315FD0009AC33013C0C23012D000724C015013A002400000724D01500E" for instance <ram_1024_x_18> in unit <prog>.
     Set user-defined property "INIT_02 =  008AC33013C0C23012D050434B0600A2C33013B002308B01403E542458315EC0" for instance <ram_1024_x_18> in unit <prog>.
     Set user-defined property "INIT_03 =  C23012F0400E0092C33013C0C23012D050434B0600A2C33013B002308B01400E" for instance <ram_1024_x_18> in unit <prog>.
-    Set user-defined property "INIT_04 =  4B02A00000AB01020086026F544F4B014000C0000000C00000010082C33013E0" for instance <ram_1024_x_18> in unit <prog>.
-    Set user-defined property "INIT_05 =  026F54644B04A00000AB010200C5026F545D4B03A00000AB010200C6026F5456" for instance <ram_1024_x_18> in unit <prog>.
-    Set user-defined property "INIT_06 =  01030007026F54714B06A00000AB01030005026F546B4B05A00000AB010200C7" for instance <ram_1024_x_18> in unit <prog>.
-    Set user-defined property "INIT_07 =  4000400058754020587541A158754207A200A1008001020001000000A00000AB" for instance <ram_1024_x_18> in unit <prog>.
+    Set user-defined property "INIT_04 =  4B02A00000AB010200860205544F4B014000C0000000C00000010082C33013E0" for instance <ram_1024_x_18> in unit <prog>.
+    Set user-defined property "INIT_05 =  020854644B04A00000AB010200C50207545D4B03A00000AB010200C602065456" for instance <ram_1024_x_18> in unit <prog>.
+    Set user-defined property "INIT_06 =  01030007020854714B06A00000AB010300050207546B4B05A00000AB010200C7" for instance <ram_1024_x_18> in unit <prog>.
+    Set user-defined property "INIT_07 =  400040005875400A5875410058754200A200A1008001020001000000A00000AB" for instance <ram_1024_x_18> in unit <prog>.
     Set user-defined property "INIT_08 =  01020062123000AB01020061A00000AB010200CE123000AB010200CDA000547E" for instance <ram_1024_x_18> in unit <prog>.
     Set user-defined property "INIT_09 =  01030022123000AB01030021A00000AB01020022123000AB01020021A00000AB" for instance <ram_1024_x_18> in unit <prog>.
     Set user-defined property "INIT_0A =  C0000002C103C002C201A000004800AB010200A2123000AB010200A1A00000AB" for instance <ram_1024_x_18> in unit <prog>.
@@ -1339,16 +1340,16 @@ Design Statistics
 # IOs                              : 18
 
 Cell Usage :
-# BELS                             : 1313
+# BELS                             : 1324
 #      GND                         : 1
 #      INV                         : 7
 #      LUT1                        : 11
-#      LUT2                        : 60
-#      LUT3                        : 282
+#      LUT2                        : 55
+#      LUT3                        : 274
 #      LUT3_L                      : 3
-#      LUT4                        : 489
+#      LUT4                        : 512
 #      MUXCY                       : 57
-#      MUXF5                       : 243
+#      MUXF5                       : 244
 #      MUXF6                       : 74
 #      MUXF7                       : 22
 #      MUXF8                       : 6
@@ -1386,10 +1387,10 @@ Device utilization summary:
 
 Selected Device : 3s100ecp132-4 
 
- Number of Slices:                      499  out of    960    51%  
+ Number of Slices:                      504  out of    960    52%  
  Number of Slice Flip Flops:            166  out of   1920     8%  
- Number of 4 input LUTs:                920  out of   1920    47%  
-    Number used as logic:               852
+ Number of 4 input LUTs:                930  out of   1920    48%  
+    Number used as logic:               862
     Number used as RAMs:                 68
  Number of IOs:                          18
  Number of bonded IOBs:                  18  out of     83    21%  
@@ -1439,7 +1440,7 @@ Speed Grade: -4
 
    Minimum period: 20.329ns (Maximum Frequency: 49.192MHz)
    Minimum input arrival time before clock: 3.966ns
-   Maximum output required time after clock: 17.949ns
+   Maximum output required time after clock: 17.948ns
    Maximum combinational path delay: No path found
 
 Timing Detail:
@@ -1461,10 +1462,10 @@ Delay:               10.164ns (Levels of Logic = 4)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     RAMB16_S18:CLK->DO5   10   2.800   0.882  sw/programa/prog_test/ram_1024_x_18 (sw/instr<5>)
-     RAM16X1D:DPRA1->DPO    1   0.704   0.455  sw/micro/reg_loop[3].register_bit (sw/micro/sy<3>)
+     RAMB16_S18:CLK->DO6   10   2.800   0.882  sw/programa/prog_test/ram_1024_x_18 (sw/instr<6>)
+     RAM16X1D:DPRA2->DPO    1   0.704   0.455  sw/micro/reg_loop[3].register_bit (sw/micro/sy<3>)
      LUT3:I2->O           67   0.704   1.308  sw/micro/reg_loop[3].operand_select_mux (sw/port_id<3>)
-     LUT4:I2->O            4   0.704   0.591  sw/salida/ce_0_mux00001_SW0 (N88)
+     LUT4:I2->O            4   0.704   0.591  sw/salida/ce_0_mux00001_SW0 (N85)
      LUT4:I3->O            8   0.704   0.757  sw/salida/ce_2_mux00001 (sw/salida/ce<2>)
      FDRE_1:CE                 0.555          sw/salida/data_out_2_0
     ----------------------------------------
@@ -1530,9 +1531,9 @@ Offset:              3.966ns (Levels of Logic = 3)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'vga/ctrl/clk251'
-  Total number of paths / destination ports: 25370 / 10
+  Total number of paths / destination ports: 25850 / 10
 -------------------------------------------------------------------------
-Offset:              17.054ns (Levels of Logic = 12)
+Offset:              17.041ns (Levels of Logic = 12)
   Source:            vga/ctrl/vcount_3 (FF)
   Destination:       blue<2> (PAD)
   Source Clock:      vga/ctrl/clk251 rising
@@ -1541,28 +1542,28 @@ Offset:              17.054ns (Levels of Logic = 12)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDCE:C->Q           219   0.591   1.496  vga/ctrl/vcount_3 (vga/ctrl/vcount_3)
-     LUT2:I0->O           29   0.704   1.436  vga/pantalla/Mrom_data_out_rom000010021 (vga/pantalla/N34)
-     LUT4:I0->O            1   0.704   0.000  vga/pantalla/Mmux_color_273 (vga/pantalla/Mmux_color_273)
-     MUXF5:I1->O           1   0.321   0.455  vga/pantalla/Mmux_color_26_f5_0 (vga/pantalla/Mmux_color_26_f51)
-     LUT4:I2->O            1   0.704   0.455  vga/pantalla/dir_rom<6>7 (vga/pantalla/dir_rom<6>8)
-     LUT3:I2->O            1   0.704   0.000  vga/pantalla/Mmux_color_1912 (vga/pantalla/Mmux_color_198)
-     MUXF5:I1->O           1   0.321   0.499  vga/pantalla/Mmux_color_18_f5_5 (vga/pantalla/Mmux_color_18_f56)
+     FDCE:C->Q           235   0.591   1.501  vga/ctrl/vcount_3 (vga/ctrl/vcount_3)
+     LUT2:I0->O           51   0.704   1.347  vga/pantalla/Mrom_data_out_rom000012611 (vga/pantalla/N36)
+     LUT4:I1->O            2   0.704   0.526  vga/pantalla/Mmux_color_30 (vga/pantalla/Mmux_color_2641)
+     LUT3:I1->O            1   0.704   0.000  vga/pantalla/dir_rom<6>8_G (N168)
+     MUXF5:I1->O           1   0.321   0.455  vga/pantalla/dir_rom<6>8 (vga/pantalla/dir_rom<6>9)
+     LUT3:I2->O            1   0.704   0.000  vga/pantalla/Mmux_color_2021 (vga/pantalla/Mmux_color_2019)
+     MUXF5:I0->O           1   0.321   0.499  vga/pantalla/Mmux_color_18_f5_5 (vga/pantalla/Mmux_color_18_f56)
      LUT2:I1->O            1   0.704   0.499  vga/pantalla/dir_rom<10>0 (vga/pantalla/dir_rom<10>0)
      LUT4:I1->O            1   0.704   0.499  vga/pantalla/dir_rom<10>68 (vga/pantalla/dir_rom<10>1)
      LUT3:I1->O            1   0.704   0.000  vga/pantalla/Mmux_color_7 (vga/pantalla/Mmux_color_7)
      MUXF5:I0->O           1   0.321   0.499  vga/pantalla/Mmux_color_5_f5 (vga/pantalla/Mmux_color_5_f5)
-     LUT3:I1->O            8   0.704   0.757  vga/pantalla/px<3>250 (blue_1_OBUF)
+     LUT3:I1->O            8   0.704   0.757  vga/pantalla/px<3>265 (blue_1_OBUF)
      OBUF:I->O                 3.272          blue_2_OBUF (blue<2>)
     ----------------------------------------
-    Total                     17.054ns (10.458ns logic, 6.596ns route)
-                                       (61.3% logic, 38.7% route)
+    Total                     17.041ns (10.458ns logic, 6.583ns route)
+                                       (61.4% logic, 38.6% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
-  Total number of paths / destination ports: 7768 / 8
+  Total number of paths / destination ports: 7776 / 8
 -------------------------------------------------------------------------
-Offset:              17.949ns (Levels of Logic = 13)
+Offset:              17.948ns (Levels of Logic = 13)
   Source:            vga/pantalla/RAMB16_S9_S9_inst (RAM)
   Destination:       blue<2> (PAD)
   Source Clock:      clk rising
@@ -1571,8 +1572,8 @@ Offset:              17.949ns (Levels of Logic = 13)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     RAMB16_S9_S9:CLKB->DOB0  388   2.800   1.454  vga/pantalla/RAMB16_S9_S9_inst (vga/pantalla/dir_rom<4>)
-     LUT2:I1->O            1   0.704   0.455  vga/pantalla/Mmux_color_256_SW0 (N166)
+     RAMB16_S9_S9:CLKB->DOB0  386   2.800   1.453  vga/pantalla/RAMB16_S9_S9_inst (vga/pantalla/dir_rom<4>)
+     LUT2:I1->O            1   0.704   0.455  vga/pantalla/Mmux_color_256_SW0 (N157)
      LUT4:I2->O            1   0.704   0.000  vga/pantalla/Mmux_color_256 (vga/pantalla/Mmux_color_256)
      MUXF5:I0->O           2   0.321   0.526  vga/pantalla/Mmux_color_23_f5_4 (vga/pantalla/Mmux_color_23_f55)
      LUT2:I1->O            1   0.704   0.000  vga/pantalla/dir_rom<6>42 (vga/pantalla/dir_rom<6>41)
@@ -1583,21 +1584,21 @@ Offset:              17.949ns (Levels of Logic = 13)
      LUT4:I2->O            1   0.704   0.499  vga/pantalla/dir_rom<10>68 (vga/pantalla/dir_rom<10>1)
      LUT3:I1->O            1   0.704   0.000  vga/pantalla/Mmux_color_7 (vga/pantalla/Mmux_color_7)
      MUXF5:I0->O           1   0.321   0.499  vga/pantalla/Mmux_color_5_f5 (vga/pantalla/Mmux_color_5_f5)
-     LUT3:I1->O            8   0.704   0.757  vga/pantalla/px<3>250 (blue_1_OBUF)
+     LUT3:I1->O            8   0.704   0.757  vga/pantalla/px<3>265 (blue_1_OBUF)
      OBUF:I->O                 3.272          blue_2_OBUF (blue<2>)
     ----------------------------------------
-    Total                     17.949ns (12.805ns logic, 5.144ns route)
+    Total                     17.948ns (12.805ns logic, 5.143ns route)
                                        (71.3% logic, 28.7% route)
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 8.00 secs
-Total CPU time to Xst completion: 8.62 secs
+Total REAL time to Xst completion: 14.00 secs
+Total CPU time to Xst completion: 13.67 secs
  
 --> 
 
-Total memory usage is 4547056 kilobytes
+Total memory usage is 4511312 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  378 (   0 filtered)
