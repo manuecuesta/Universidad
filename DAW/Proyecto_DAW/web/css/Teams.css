@@ -1,0 +1,102 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#contenedor {
+    margin : 0px auto;
+    text-align : left;
+}
+
+nav {
+    position: fixed;
+    margin: 0px auto;
+    width: 100%;
+    height: 58px;
+    background-color: coral;
+}
+
+ul {
+    list-style: none;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 15px;
+    display: block;
+}
+
+.menu li li a {
+    background-color: coral;
+    color: white;
+}
+
+.menu li a:hover {
+    background-color: white;
+    color: black;
+}
+
+.menu > li {
+
+    float: left;
+}
+
+.menu li ul {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+}
+
+.menu li:hover > ul {
+    display: block;
+}
+
+/*un tercer nivel  y sucesivos */
+.menu li ul li {
+    position: relative;
+}
+
+.menu li ul li ul {
+    right: -100px;
+    top: -2px;
+}
+
+footer {
+    clear: both;
+    bottom: 0px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+#resto {
+    padding-top: 60px;
+}
+
+
+.tabla1 {
+    padding: 15px;
+    margin: auto;
+}
+
+#tabla {
+    margin: auto;
+    background-color: white;
+}
+
+#sin_click {
+    background-color: white;
+}
+
+#click {
+    background-color: red;
+}
